@@ -1,8 +1,14 @@
 body {
     background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
+    font-family: Kodchasan;
     margin: 0;
     padding: 0;
+}
+
+.kodchasan-regular {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container {
@@ -40,16 +46,26 @@ section {
 
 .social-media {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .social-media a {
-    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
 }
+
+.social-media span {
+    margin-left: 10px;
+}
+
 
 .social-media img {
     max-width: 30px;
     height: auto;
-}
+} 
 
 .thumbnails {
     display: flex;
@@ -63,6 +79,6 @@ section {
 }
 
 .thumbnails img {
-    max-width: 200px;
+    max-width: 400px;
     height: auto;
 }
