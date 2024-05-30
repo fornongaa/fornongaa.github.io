@@ -40,6 +40,53 @@ nav ul li a {
     color: #000;
 }
 
+.profile-header {
+    width: 100%;
+    position: relative;
+    background-color: #f0f8ff;
+    margin-bottom: -40px;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 250px;
+    background-image: url('static/images/cover.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-right: 20px;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #1c1e21;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #606770;
+}
+
 section {
     margin-bottom: 40px;
 }
@@ -55,9 +102,12 @@ section {
     flex-direction: row;
     align-items: center;
     margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .social-media span {
+    color: #000000;
     margin-left: 10px;
 }
 
@@ -79,6 +129,6 @@ section {
 }
 
 .thumbnails img {
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
 }
